@@ -1,6 +1,6 @@
 # Mitigating Catastrophic Forgetting in Biologically Constrained RNNs Using EWC(Elastic Weights Consolidation)
 
-This was the subproject I did as part of our Project for our Machine Learning Class offered by Professor Rajesh Ranganath at NYU Courant. In the [Project Report](),
+This was the subproject I did as part of our Project for our Machine Learning Class offered by Professor Rajesh Ranganath at NYU Courant. In the [Project Report](Machine_Learning_Project_Report-2.pdf),
 only the sections on Catastrophic Forgetting are mine. The other sections are my Teammates'.
 
 Here, the Biological RNN used is the the network used in [pycog](https://github.com/frsong/pycog). The base network is the same as the one I use in my Thesis, but unlike in the Thesis, almost no modifications and adaptations have been made to the network itself or the optimization algorithm. 
