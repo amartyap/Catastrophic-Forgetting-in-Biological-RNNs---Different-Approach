@@ -9,12 +9,14 @@ Instead of MNIST Digits, for the first task, the sequence of inputs given to the
 
 They are thus, both regression tasks and not classification tasks. Most importantly, though, the most crucial difference is the approach used to Mitigate forgetting. Here, I use a combination of two well known Regularization based approaches for Catastrophic Forgetting, that is, Dropout and Elastic WEights Consolidation(EWC). EWC involves adding a regularization term to the Loss function while training for the second task, as follows :
 
-$$L_\theta = L_2(\theta) + \sum_i \frac{\lambda}{2} \F_i (\theta) $$
+![ewceq](Images/ewc.jpeg)
+
+where F is the Fisher Information Matrix. The regularization term forces the new parameters to be in a neighbourhood of the parameters learnt after training for the first task, for the parameters that were more important for learning the first task.
 
 
 
 
-## Features:
+## Results:
 
 ![Features](Images/features.jpeg)
 
